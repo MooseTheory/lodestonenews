@@ -33,7 +33,7 @@ type CurrentMainteenance struct {
 type Region string
 
 const (
-	baseURI = "http://%s.lodestonenews.com/news/%s"
+	baseURI = "https://%s.lodestonenews.com/news/%s"
 
 	NorthAmerica  Region = "na"
 	EuropeanUnion Region = "eu"
