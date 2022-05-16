@@ -23,11 +23,11 @@ type LodestoneNewsResponse struct {
 }
 
 type CurrentMainteenance struct {
-	Companion LodestoneNewsResponse `json:"companion"`
-	Game      LodestoneNewsResponse `json:"game"`
-	Lodestone LodestoneNewsResponse `json:"lodestone"`
-	Mog       LodestoneNewsResponse `json:"mog"`
-	PSN       LodestoneNewsResponse `json:"psn"`
+	Companion []LodestoneNewsResponse `json:"companion"`
+	Game      []LodestoneNewsResponse `json:"game"`
+	Lodestone []LodestoneNewsResponse `json:"lodestone"`
+	Mog       []LodestoneNewsResponse `json:"mog"`
+	PSN       []LodestoneNewsResponse `json:"psn"`
 }
 
 type Region string
