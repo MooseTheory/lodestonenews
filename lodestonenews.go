@@ -66,6 +66,8 @@ func CurrentMaintenance(locale Region) (currentMaintenance CurrentMainteenance, 
 		return
 	}
 	err = json.Unmarshal(body, &currentMaintenance)
+	fmt.Println(string(body))
+	fmt.Println(err)
 	return
 }
 
